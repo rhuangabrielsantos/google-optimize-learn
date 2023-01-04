@@ -312,6 +312,11 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-optimize@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/react-optimize/-/react-optimize-2.4.1.tgz#d3a302e2a1b0d29c320d78d70eec9ccba0721079"
+  integrity sha512-yaK6lZ/QSPkTdFYv2vqn3VTdtDqzzxcoM1NkHmuJJ5vhrmj7tj4avKex1Se9D9RuJEut9uQSUsqiCVs30OQfwQ==
+
 react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"

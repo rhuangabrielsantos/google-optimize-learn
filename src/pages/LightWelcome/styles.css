@@ -1,0 +1,47 @@
+.light-welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: ##f8f8f2;
+  color: ##282a36;
+
+  font-family: "Bellota", cursive;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.light-welcome .feedback {
+  padding: 25px;
+}
+
+.light-welcome .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 20px;
+}
+
+.light-welcome .buttons button {
+  width: 100px;
+  height: 30px;
+
+  border: none;
+
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.light-welcome .buttons button:nth-child(1) {
+  background-color: #50fa7b;
+  color: #44475a;
+}
+
+.light-welcome .buttons button:nth-child(2) {
+  background-color: #ff5555;
+  color: #f8f8f2;
+}

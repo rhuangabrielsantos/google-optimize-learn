@@ -1,0 +1,47 @@
+.color-welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: #ffb86c;
+  color: #282a36;
+
+  font-family: "Bellota", cursive;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.color-welcome .feedback {
+  padding: 25px;
+}
+
+.color-welcome .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 20px;
+}
+
+.color-welcome .buttons button {
+  width: 100px;
+  height: 30px;
+
+  border: none;
+
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.color-welcome .buttons button:nth-child(1) {
+  background-color: #8be9fd;
+  color: #282a36;
+}
+
+.color-welcome .buttons button:nth-child(2) {
+  background-color: #f1fa8c;
+  color: #282a36;
+}
