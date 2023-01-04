@@ -6,7 +6,7 @@ import { LightWelcome } from "./pages/LightWelcome";
 
 export function App() {
   return (
-    <Experiment id="HOmfYhDAR2ChEz6x7P06ZA">
+    <Experiment id="MfQ28UcSSECfilEQKWQXeQ">
       <Variant id="0">
         <DarkWelcome />
       </Variant>
