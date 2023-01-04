@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Experiment, Variant } from "react-optimize";
 
 import "./styles.css";
 
@@ -25,8 +26,16 @@ export const DarkWelcome: React.FC = () => {
         <div className="feedback">Thanks to contribute!</div>
       ) : (
         <div className="buttons">
-          <button onClick={handleYes}>YES</button>
-          <button onClick={handleNo}>NO</button>
+          <Experiment id="05MkkLd7QO-fx6SkQsXOFw">
+            <Variant id="0">
+              <button onClick={handleYes}>YES</button>
+              <button onClick={handleNo}>NO</button>
+            </Variant>
+            <Variant id="1">
+              <button onClick={handleYes}>Yes, I liked it</button>
+              <button onClick={handleNo}>No, I didn't like it</button>
+            </Variant>
+          </Experiment>
         </div>
       )}
     </div>
